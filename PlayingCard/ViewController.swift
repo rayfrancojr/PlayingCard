@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("Testing")
         for _ in 1...10 {
             if let card = deck.draw() {
                 print("\(card)")

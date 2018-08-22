@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PlayingCard: CustomStringConvertible
+struct PlayingCard: CustomStringConvertible //implements the protocol CustomStringConvertible
 {
     var description: String {
         return "\(rank)\(suit)"
